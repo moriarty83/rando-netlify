@@ -25,124 +25,124 @@ function App() {
         <h3>const rando = new Rando()</h3>
       </div>
 
-    <div class="content">
-        <div class="section">
+    <div className="content">
+        <div className="section">
             <h2>Random value between 0 & 1</h2>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3>Method:</h3>
                 <h3>rando.Random()</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Output:</h3>
                 <h3 id="random">{rando.Random()}</h3>
             </div>
         </div>
 
-        <div class="section">
+        <div className="section">
             <h2>Random Integer between 1 & 10</h2>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3>Method:</h3>
                 <h3>rando.RandomInt(1, 11)</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Output:</h3>
                 <h3 id="random-int">{rando.RandomInt(1, 11)}</h3>
             </div>
         </div>
 
-        <div class="section">
+        <div className="section">
             <h2>Random Float between 10 & 20 with 3 significant digits</h2>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3>Method:</h3>
                 <h3>rando.RandomFloat(10, 21, 3)</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Output:</h3>
                 <h3 id="random-float">{rando.RandomFloat(10, 21, 3)}</h3>
             </div>
         </div>
 
-        <div class="section">
+        <div className="section">
             <h2>Random Array Element</h2>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3>Method:</h3>
                 <h3>rando.RandomElement(["dog", "cat", "fish", "bear"])</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Output:</h3>
                 <h3 id="random-element">{rando.RandomElement(["dog", "cat", "fish", "bear"])}</h3>
             </div>
         </div>
 
-        <div class="section">
+        <div className="section">
             <h2>Random Hex Digit</h2>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3>Method:</h3>
                 <h3>rando.RandomHex()</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Output:</h3>
                 <h3 id="random-hex">{rando.RandomHex()}</h3>
             </div>
         </div>
 
-        <div class="section">
+        <div className="section">
             <h2>Random Hex Color</h2>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3>Method:</h3>
                 <h3>rando.RandomHexColor()</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Output:</h3>
                 <h3 id="random-hex-color-text">Random Hex Color</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Use in React:</h3>
                     <h4 >{hexUse}
                 </h4>
-                <div class="parent-color">
-                    <div class="color-block" style={{backgroundColor: hexColor}}></div>
+                <div className="parent-color">
+                    <div className="color-block" style={{backgroundColor: hexColor}}></div>
                 </div>
             </div>
         </div>
 
-        <div class="section">
+        <div className="section">
             <h2>Random RBG Color</h2>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3>Method:</h3>
                 <h3>rando.RandomRBG()</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Output:</h3>
                 <h3 id="random-rbg-color-text">{rbg}</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Use in React:</h3>
                 <h4 >{rbgUse}</h4>
-                <div class="parent-color">
+                <div className="parent-color">
 
-                    <div class="color-block" style={{backgroundColor: rbg}}></div>
+                    <div className="color-block" style={{backgroundColor: rbg}}></div>
                 </div>
             </div>
         </div>
         
         
-        <div class="section">
+        <div className="section">
             <h2>Random RBGA Color</h2>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3>Method:</h3>
                 <h3>rando.RandomRBGA()</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Output:</h3>
                 <h3 id="random-rbga-color-text">{rbga}</h3>
             </div>
-            <div class="sub-section">
+            <div className="sub-section">
                 <h3 id="output">Use in React:</h3>
                 <h4 >{rbgaUse}
             </h4>
-            <div class="parent-color">
-            <div class="color-block" style={{backgroundColor: rbga}}></div>
+            <div className="parent-color">
+            <div className="color-block" style={{backgroundColor: rbga}}></div>
             </div>
             </div>
         </div>
